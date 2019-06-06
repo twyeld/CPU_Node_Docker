@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang= "en">
+
+	<head>
+		<meta charset = "utf-8">
+		<title>Chart.js Radial Chart</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+		<script>
+				var socket = io();
+		</script>
+	</head>
+
+
+	<body>
+		<div style="position: absolute; top:0px; left:0px;">
+		  <canvas id="chart-area" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:90px; left:80px;">
+		<p id="log" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<div style="position: absolute; top:0px; left:180px;">
+		  <canvas id="chart-area2" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:90px; left:260px;">
+		<p id="log2" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<div style="position: absolute; top:0px; left:360px;">
+		  <canvas id="chart-area3" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:90px; left:440px;">
+		<p id="log3" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<div style="position: absolute; top:140px; left:0px;">
+		  <canvas id="chart-area4" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:230px; left:80px;">
+		<p id="log4" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<div style="position: absolute; top:140px; left:180px;">
+		  <canvas id="chart-area5" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:230px; left:260px;">
+		<p id="log5" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<div style="position: absolute; top:140px; left:360px;">
+		  <canvas id="chart-area6" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:230px; left:440px;">
+		<p id="log6" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<div style="position: absolute; top:280px; left:0px;">
+		  <canvas id="chart-area7" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:370px; left:80px;">
+		<p id="log7" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<div style="position: absolute; top:280px; left:180px;">
+		  <canvas id="chart-area8" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:370px; left:260px;">
+		<p id="log8" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<div style="position: absolute; top:280px; left:360px;">
+		  <canvas id="chart-area9" width="200" height="200"></canvas>
+		</div>
+		<div style="position: absolute; top:370px; left:440px;">
+		<p id="log9" style="font-family:verdana; font-size:120%"></p>
+		</div>
+		
+		<button id="randomizeData" style="display: none;" >Randomize Data</button>
+
+		<script src="Chart.min.js"></script>
+		<script src="Chart.RadialGauge.umd.js"></script>
+		<script src="jquery.min.js"></script>
+		<script src="io-script.js"></script>
+		<script src="myScript.js"></script>
+  </body>
+</html>
+
